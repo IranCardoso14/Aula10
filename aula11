@@ -1,0 +1,54 @@
+programa
+{
+	
+cadeia nome
+	
+	funcao inicio()
+	{
+		escreva("Digite seu nome ou 'x' para sair do sistema: ")
+		leia (nome)
+
+		enquanto (nome != "x"){
+			escreva("Digite seu nome ou 'x' para sair do sistema: ")
+			leia (nome)
+		}
+		escreva ("Você saiu do sistema.")
+	}
+}
+
+
+
+
+{
+	
+	funcao inicio()
+	{
+	inteiro i = 0 , valor
+	escreva ("Informe o valor final da repetição: ")
+	leia (valor)
+	
+		enquanto ( i <= valor){
+			escreva ("\nRepetiu ", i)
+			i++
+			}
+	}
+}
+
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+	cadeia nome
+	inteiro num = 0
+
+	enquanto (num <= 2){
+		escreva ("Digite 3 nomes \n")
+		leia (nome)
+
+		num++
+	}
+	}
+}
